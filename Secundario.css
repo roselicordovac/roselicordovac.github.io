@@ -1,0 +1,39 @@
+#mensaje{
+
+  visibility: hidden;
+}
+
+.puntero:hover{
+   cursor: pointer;
+}
+.puntero{
+  border-width: 2em;
+  border-style: ridge;
+  border-color: blue;
+}
+
+.textoresaltado{
+  background-color: gold;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+.colortexto{
+  color:black;
+}
+
+.puntero:hover{
+  cursor: pointer;
+
+}
+
+h1{
+  margin: 10% 10%;
+  border: 0.2em solid black;
+  font-family: Arial Narrow BoldImpact, Haettenschweiler, '', sans-serif;
+  color: green;
+  font: size;
+}
+h2{
+  padding: 10%;
+  border: 0.1% dashed #01ffaa;
+}
+
