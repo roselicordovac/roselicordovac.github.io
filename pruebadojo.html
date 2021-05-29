@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/dojo/1.14.1/dijit/themes/soria/soria.css">
+
+    <script>
+        dojoConfig = {
+            parseOnLoad: true
+        }
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.14.1/dojo/dojo.js"></script>
+    <!-- <script src='../_static/js/dojo/dojo.js'></script> -->
+
+    <script>
+        require(["dijit/Dialog", "dojo/domReady!"], function(Dialog) {
+            myDialog = new Dialog({
+                title: "Certus Bienvenido",
+                content: "La Información de esta Pantalla",
+                style: "width: 300px; height:300px"
+            });
+        });
+    </script>
+</head>
+
+<body class="soria">
+    <button onclick="myDialog.show();">CARGAR VENTANA</button>
+</body>
+
+</html>
+
+</body>
+</html>
